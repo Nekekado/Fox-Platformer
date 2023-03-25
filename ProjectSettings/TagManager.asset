@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Bonus
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1036479091
+    locked: 0
+  - name: Decorations
+    uniqueID: 4029429857
+    locked: 0
+  - name: Player
+    uniqueID: 1711739995
+    locked: 0
+  - name: Bonuses
+    uniqueID: 453014823
+    locked: 0
+  - name: Ground
+    uniqueID: 364173289
+    locked: 0
+  - name: Interface
+    uniqueID: 4267749661
+    locked: 0
+  - name: PauseMenu
+    uniqueID: 3438495585
+    locked: 0
