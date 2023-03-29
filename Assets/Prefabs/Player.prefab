@@ -123,7 +123,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1
+  m_LinearDrag: 2
   m_AngularDrag: 0.05
   m_GravityScale: 2.77
   m_Material: {fileID: 0}
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 7307465805541643376}
-  _jumpForce: 18
+  _jumpForce: 21
 --- !u!114 &62177540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +226,7 @@ MonoBehaviour:
   layerOfGround:
     serializedVersion: 2
     m_Bits: 64
-  circleRadius: 0.3
+  circleRadius: 0.25
   _textsManager: {fileID: 0}
 --- !u!114 &62177546
 MonoBehaviour:
