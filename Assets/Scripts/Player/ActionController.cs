@@ -8,10 +8,7 @@ public class ActionController : MonoBehaviour
 
     public void Move(float xAxis)
     {
-        if (_jumpController.IsJumping == false)
-        {
-            _moveController.Move(xAxis, _playerResources.IsSeeRight);
-        }
+        _moveController.Move(xAxis, _playerResources.IsSeeRight);
     }
 
     public void Jump()

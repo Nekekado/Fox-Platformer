@@ -1,10 +1,11 @@
+using System;
 using UnityEngine;
 
 public class CollisionController : MonoBehaviour
 {
     [SerializeField] private ActionController _actionController;
-
-    private void OnCollisionEnter2D(Collision2D collision2D)
+    
+    private void OnTriggerEnter2D(Collider2D collision2D)
     {
         if (collision2D.gameObject.CompareTag("Bonus"))
         {
